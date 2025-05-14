@@ -1,0 +1,20 @@
+.Parent{
+    display: flex;
+    background-color: rgb(81, 42, 165);
+    color: white;
+    height: 500px;
+    width: 350px;
+    border: 2px dotted;
+    padding: 15px;
+    
+}
+.child{
+    display:inline;
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    border: 2px dotted;
+    padding: 10px;
+    margin:15px;
+   opacity: 0.15;
+}

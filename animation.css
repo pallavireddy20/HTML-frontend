@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         @keyframes anitest{
+        0%{
+             background-color: teal;
+            }
+
+            25%{
+                background-color:rgb(red, green, blue);
+                width: 450px;
+            }
+                50%{
+                background-color:rgb(rgb(0, 255, 21), green, blue);
+                width: 450px;
+            }
+            75%{
+                background-color:rgb(rgb(72, 0, 255), green, blue);
+                width: 350px;
+            }
+            
+            
+         /*from{
+                background-color: teal;
+            }
+
+            to{
+                background-color:rgb(red, green, blue);
+                width: 450px;
+            }*/
+         }
+        .anime{
+            height:350px;
+            width:250px;
+            background-color:black;
+            color: blueviolet;
+            animation-name: anitest;
+            animation-duration: 3s;
+            animation-delay: 1s;
+            animation-iteration-count:4 ;
+        }
+    </style>
+</head>
+<body>
+    <div class="anime" >Hello</div>
+</body>
+</html>
